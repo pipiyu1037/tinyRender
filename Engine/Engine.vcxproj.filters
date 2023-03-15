@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EngineFrame">
+      <UniqueIdentifier>{1ecb6c9e-5339-4a81-94b2-fe9e54f171ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{b341cd40-3ed2-45a1-913e-66a912291014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{dcea03dc-acda-496c-9603-f86932705c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders">
+      <UniqueIdentifier>{0eafc862-544a-4ce5-ab80-a110d8701164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Materials">
+      <UniqueIdentifier>{d1d88563-9aa4-48c9-b109-f4d01a2cbccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineFrame\Interfaces">
+      <UniqueIdentifier>{c3be505c-1a73-4c4f-afd0-798e27f6ec70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI">
+      <UniqueIdentifier>{2c3c1967-079d-4afb-a39c-6bef4f2a0f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{7c416459-f9bf-416a-a278-aecc8392201d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageOut.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\glad\src\glad.c">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="GOManager.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ROManager.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderBase.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>EngineFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongMat.cpp">
+      <Filter>Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonMat.cpp">
+      <Filter>Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="IMouseReceiver.cpp">
+      <Filter>EngineFrame\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSample.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiLayer.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageOut.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="GOManager.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ROManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderBase.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>EngineFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongMat.h">
+      <Filter>Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonMat.h">
+      <Filter>Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>EngineFrame\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMouseReceiver.h">
+      <Filter>EngineFrame\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3_loader.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiWidget.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSample.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GMScene0.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GMScene1.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GMScene2.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiLayer.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="IHaveShadowPass.h">
+      <Filter>EngineFrame\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScript.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fragment.glsl">
+      <Filter>Render\Shaders</Filter>
+    </None>
+    <None Include="shaders\vertex.glsl">
+      <Filter>Render\Shaders</Filter>
+    </None>
+    <None Include="shaders\vertex2d.glsl">
+      <Filter>Render\Shaders</Filter>
+    </None>
+    <None Include="shaders\frag_toon.glsl">
+      <Filter>Render\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
